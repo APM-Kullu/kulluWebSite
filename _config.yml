@@ -21,10 +21,10 @@ author: Ubaldo garcia Zaragoza
 
 navbar-links:
   RA: "aboutme"
+  Docentes: "aboutme"
   Recursos:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Docentes: "aboutme"
   Classroom 2023-1: "https://classroom.google.com/c/NTQyMDcwMjYzNTI3?cjc=or5ws52"
 
 ################
