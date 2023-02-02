@@ -21,7 +21,7 @@ author: Ubaldo Garcia Zaragoza
 
 navbar-links:
   RA: "ra"
-  Docentes: "aboutme"
+  Docentes: "docentes"
   Recursos:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
