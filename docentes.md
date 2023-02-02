@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Docentes 
-subtitle: Nuestro Equipo 
+title: Tematicas 
+subtitle: Módulos de formación 
 ---
 
 El curso brinda a los estudiantes un acercamiento experimental hacia tecnologías de Automatización en Manufactura Celular. 
