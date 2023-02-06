@@ -23,5 +23,10 @@ El curso brinda a los estudiantes un acercamiento experimental hacia tecnología
 
 ### Robótica Industrial
 
-<video src="https://user-images.githubusercontent.com/27815265/216395914-a57c37e7-0a9d-4fae-9d87-bd37e62c88ce.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/27815265/217044141-46f4b59c-c4f2-49d5-a50b-5422665e704c.mp4" controls="controls" style="max-width: 730px;">
 </video>
+
+
+
+
+
