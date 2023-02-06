@@ -13,8 +13,11 @@ subtitle: Equipo de Profesores
 
 
 
-| First Header  | Second Header |First Header  | 
+| Industria 4.0  | OPC/TCP/IP|First Header  | 
 | ------------- | ------------- |------------- |
-| ![Ubaldo Garcia](https://user-images.githubusercontent.com/27815265/216997972-edf3994e-d436-4bb1-9ecf-6ddbbb119781.png) | Content Cell  | Content Cell  | 
-| Ubaldo Garcia Zaragoza MSc  | Content Cell  |Content Cell  |
-| Fábrica Digital | Content Cell  |Content Cell  |
+| ![Eduardo Barrera](https://user-images.githubusercontent.com/27815265/217004618-5ccce037-7ae5-4051-8855-d8abe2f6786f.png) | ![Ricardo Ramirez](https://user-images.githubusercontent.com/27815265/217006274-2eb7f901-a004-4b2e-90cb-3b28883f1837.png)  | Content Cell  | 
+| Eduardo Barrera Gualdron MSc  | Ricardo Ramirez Heredia PhD  |Content Cell  |
+| Ingeniero Electrónico  | Ingeniero Electrónico/Mecánico  |Content Cell  |
+
+
+![Ricardo Ramirez](https://user-images.githubusercontent.com/27815265/217006274-2eb7f901-a004-4b2e-90cb-3b28883f1837.png)
