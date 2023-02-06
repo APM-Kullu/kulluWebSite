@@ -20,4 +20,3 @@ subtitle: Equipo de Profesores
 | Ingeniero Electrónico  | Ingeniero Electrónico/Mecánico  |Content Cell  |
 
 
-![Ricardo Ramirez](https://user-images.githubusercontent.com/27815265/217006274-2eb7f901-a004-4b2e-90cb-3b28883f1837.png)
