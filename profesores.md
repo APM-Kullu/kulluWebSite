@@ -15,6 +15,6 @@ subtitle: Equipo de Profesores
 | ------------- | ------------- |------------- |
 | ![Eduardo Barrera](https://user-images.githubusercontent.com/27815265/217004618-5ccce037-7ae5-4051-8855-d8abe2f6786f.png) | ![Ricardo Ramirez](https://user-images.githubusercontent.com/27815265/217006274-2eb7f901-a004-4b2e-90cb-3b28883f1837.png)  | Content Cell  | 
 | Eduardo Barrera Gualdron MSc  | Ricardo Ramirez H. PhD  |Content Cell  |
-| Ingeniero Electrónico  | Ingeniero Electrónico/Mecánico  |Content Cell  |
+| Ingeniero Electrónico  | Ingeniero Electrónico  |Content Cell  |
 
 
