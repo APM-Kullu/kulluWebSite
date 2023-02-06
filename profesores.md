@@ -11,10 +11,11 @@ subtitle: Equipo de Profesores
 | Ingeniero Mecánico | Ingeniero Electrónico  | Ingeniero Electrónico |
 
 
-| Industria 4.0  | OPC/TCP/IP|First Header  | 
+| Industria 4.0  | OPC/TCP/IP|Admin. Proyectos  | 
 | ------------- | ------------- |------------- |
-| ![Eduardo Barrera](https://user-images.githubusercontent.com/27815265/217004618-5ccce037-7ae5-4051-8855-d8abe2f6786f.png) | ![Ricardo Ramirez](https://user-images.githubusercontent.com/27815265/217006274-2eb7f901-a004-4b2e-90cb-3b28883f1837.png)  | Content Cell  | 
-| Eduardo Barrera Gualdr.     MSc  | Ricardo Ramirez H. PhD  |Content Cell  |
-| Ingeniero Electrónico  | Ingeniero Electrónico  |Content Cell  |
+| ![Eduardo Barrera](https://user-images.githubusercontent.com/27815265/217004618-5ccce037-7ae5-4051-8855-d8abe2f6786f.png) | ![Ricardo Ramirez](https://user-images.githubusercontent.com/27815265/217006274-2eb7f901-a004-4b2e-90cb-3b28883f1837.png)  | ![Luis Miguel](https://user-images.githubusercontent.com/27815265/217037404-272e9b7e-f8aa-4cdf-aa0b-cf804205a150.jpg)  | 
+| Eduardo Barrera Gualdr.     MSc  | Ricardo Ramirez H. PhD  | Luis M. Mendez PhD  |
+| Ingeniero Electrónico  | Ingeniero Electrónico  | Ingeniero Mecánico  |
+
 
 
