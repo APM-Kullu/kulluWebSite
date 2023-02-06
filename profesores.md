@@ -4,7 +4,6 @@ title: Docentes
 subtitle: Equipo de Profesores
 ---
 
-
-![1517465460524](https://user-images.githubusercontent.com/27815265/216430296-eba163c6-45a8-4d97-b360-70185138dacb.jpeg)
+![Ubaldo Garcia](https://user-images.githubusercontent.com/27815265/216991276-f5bbd010-f245-4932-b3cf-5b3fc9fbe87f.jpg)
 
 Ubaldo Garcia Zaragoza MSc
