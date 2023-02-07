@@ -11,7 +11,7 @@ subtitle: Equipo de Profesores
 | Ingeniero Mecánico  MSc| Ingeniero Electrónico PhD | Ingeniero Electrónico PhD|
 | ugarciaz@unal.edu.co | pfcardenash@unal.edu.co   | vhgrisalesp@unal.edu.co  |
 
-| Industria 4.0  | OPC/TCP/IP|Admin. Proyectos  | 
+| Industria 4.0  | OPC/TCP/IP| Gestión de Proyectos  | 
 | ------------- | ------------- |------------- |
 | ![Eduardo Barrera](https://user-images.githubusercontent.com/27815265/217004618-5ccce037-7ae5-4051-8855-d8abe2f6786f.png) | ![Ricardo Ramirez](https://user-images.githubusercontent.com/27815265/217006274-2eb7f901-a004-4b2e-90cb-3b28883f1837.png)  | ![Luis Miguel 2](https://user-images.githubusercontent.com/27815265/217038088-b323c9fc-63b2-4bba-b678-9b2d02092b11.png) | 
 | Eduardo Barrera G.  | Ricardo Ramirez H.   | Luis Miguel Mendez |
