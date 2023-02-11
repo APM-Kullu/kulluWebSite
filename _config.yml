@@ -10,17 +10,17 @@
 ############################
 
 # Name of website
-title: UNAL APM E-Course Main
+title: APM-Kullu
 
 # Your name to show in the footer
-author: Ubaldo Garcia Z.
+author: Julián Velandia - Juan Santana - Camilo Vera - Santiago Hernandez
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  RA: "ra"
+  
   Modulos: "docentes"
   Profesores: "profesores"
   Recursos:
