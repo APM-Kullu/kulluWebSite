@@ -10,23 +10,32 @@
 ############################
 
 # Name of website
-title: UNAL APM E-Course Main
+title: APM-Kullu
 
 # Your name to show in the footer
-author: Ubaldo Garcia Z.
+author: Julián Velandia - Juan Santana - Camilo Vera - Santiago Hernandez
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  RA: "ra"
-  Modulos: "docentes"
-  Profesores: "profesores"
-  Recursos:
-    - Automatik: "https://leonardomercado.github.io/Proyecto_APM/03%20Pagina%20web/index.html" 
-    - Bicibu: "https://apm2021-1.github.io/BICIBU-Pagina-web/"
-  Classroom 2023-1: "https://classroom.google.com/c/NTQyMDcwMjYzNTI3?cjc=or5ws52"
+  
+ 
+  Nuestra Solución: "solution"
+  Nuestro Equipo: "team"
+  Proceso de aprendizaje: "learning"
+  Módulos: 
+    - GESTIÓN DE PRODUCCIÓN Y AUTOMATIZACIÓN: "m1" 
+    - INDUSTRIA 4.0 EN LA AUTOMATIZACIÓN: "m2"
+    - PLANEACIÓN DEL PROYECTO: "m3"
+    - EVALUACIÓN ECONÓMICA DE PROYECTOS: "m4"
+    - CELDA DE MANUFACTURA ROBOTIZADAS: "m5"
+    - DIGITAL FACTORY: "m6"
+    - CONTROLADORES INDUSTRIALES: "m7"
+    - ACTUADORES DE AUTOMATIZACIÓN: "m8"
+    - SCADA: "m9"
+
 
 ################
 # --- Logo --- #
@@ -51,13 +60,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "ugarciaz@unal.edu.co"
-  rss: false  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: acimmunal
-  github: UbaldoGZ
-  twitter: PrensaUNAL
+ # email: "ugarciaz@unal.edu.co"
+ # rss: false  # remove this line if you don't want to show an RSS link at the bottom
+ # facebook: acimmunal
+  github: APM-Kullu
+ # twitter: PrensaUNAL
 #  patreon: DeanAttali
-  youtube: ingenieriaUNBog
+ # youtube: ingenieriaUNBog
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -89,9 +98,10 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  github: true
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
@@ -127,8 +137,8 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+navbar-col: "#4F776F"
+navbar-text-col: "#FFFFFF"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
