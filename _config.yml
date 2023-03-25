@@ -26,18 +26,12 @@ navbar-links:
     - SOLUCION: "solution"
     - PROCESOS DE MANUFACTURA: "manufactura"
     - CAPACIDAD DE PRODUCCIÓN: "production"
+    - PARÁMETROS DE RENDIMIENTO Y KPIS: "kpis"
   Nuestro Equipo: "team"
-  Proceso de aprendizaje: "learning"
-  Módulos: 
-    - GESTIÓN DE PRODUCCIÓN Y AUTOMATIZACIÓN: "m1" 
-    - INDUSTRIA 4.0 EN LA AUTOMATIZACIÓN: "m2"
-    - PLANEACIÓN DEL PROYECTO: "m3"
-    - EVALUACIÓN ECONÓMICA DE PROYECTOS: "m4"
-    - CELDA DE MANUFACTURA ROBOTIZADAS: "m5"
-    - DIGITAL FACTORY: "m6"
-    - CONTROLADORES INDUSTRIALES: "m7"
-    - ACTUADORES DE AUTOMATIZACIÓN: "m8"
-    - SCADA: "m9"
+  Proceso de aprendizaje:
+    - GESTIÓN DE PROYECTO: "gestion"
+    - EDT: "edt"
+
 
 
 ################
