@@ -22,7 +22,10 @@ author: Julián Velandia - Juan Santana - Camilo Vera - Santiago Hernandez
 navbar-links:
   
  
-  Nuestra Solución: "solution"
+  Nuestra Solución: 
+    - SOLUCION: "solution"
+    - PROCESOS DE MANUFACTURA: "manufactura"
+    - CAPACIDAD DE PRODUCCIÓN: "production"
   Nuestro Equipo: "team"
   Proceso de aprendizaje: "learning"
   Módulos: 

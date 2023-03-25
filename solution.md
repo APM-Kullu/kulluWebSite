@@ -2,12 +2,13 @@
 layout: page
 title: Productos 
 ---
+
 Con el fin de simular unas condiciones de producción cercanas a la realidad, se
 seleccionaron 3 productos que pudieran ser fabricados a partir de la misma materia prima. En
 este caso un tablero de madera MDF de 15mm de espesor.
 
-### Productos
-## Base portátil ergonómica
+## Productos
+### Base portátil ergonómica
 
 <img width="263" alt="image" src="https://user-images.githubusercontent.com/52173621/227602317-452ad88f-2690-4ba0-b00d-36875282d9c3.png">
 
@@ -33,7 +34,7 @@ embargo no se descarta una etapa de pintado del producto, esto será evaluado m�
 con el desarrollo del proyecto ya que puede influir negativamente en los costos teóricos del
 proceso de manufactura.
 
-## Taburete
+### Taburete
 
 Este producto puede ser utilizado como asiento y como elemento de apoyo para facilitar el
 acceso a elementos que se encuentren en sitios altos en el hogar.
@@ -65,7 +66,7 @@ diámetro y 2 pulgadas de largo, es decir la misma referencia de tornillos utili
 primer producto. De igual forma no se plantea un acabado de la superficie, más allá de la
 aplicación de un sellante.
 
-## Portavinos
+### Portavinos
 
 Este producto se utiliza para almacenar y conservar el vino. Cuenta con un soporte central
 que se encuentra fijado a la pared a través de 3 tornillos de anclaje. Así mismo, posee un total
@@ -92,8 +93,4 @@ partir de un modelo CAD desarrollado en Autodesk Inventor.
 
 Se plantea el mismo tipo de acabado y material que los 2 productos anteriores.
 
-### Procesos de manufactura
-
-Considerando que los 3 productos seleccionados se construyen a partir de la misma materia
-prima (Tablero MDF de 15mm), se propone el siguiente flujo de trabajo para la línea de
-producción de Kullu:
+[Articulo completo](https://github.com/APM-Kullu/Project/blob/main/Especificaciones%20de%20Proyecto.pdf)
