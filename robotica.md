@@ -1,7 +1,12 @@
 ---
 layout: page
-title: Automatización y manufactura
+title: Celda Robotizada
 ---
+
+Para nuestra solución, se requiere un brazo robótico que:
+1. Recoja las piezas que salen de la cortadora CNC y las oriente e introduzca en unas plantillas que van a pasar al área de taladrado
+2. Recoja las piezas ya taladradas de un template y las lleve a una mesa provisional (Buffer) para luego introducirlas a otro template (Para completar el taladrado de toda la pieza)
+3. Recoja las piezas ya taladradas de un template y las lleve a una mesa de salida
 
 ## Justificación de la selección de un brazo robótico para la celda robótica
 Para la tarea de recoger las piezas en MDF recién cortadas y pasarlas a la siguiente celda, se requiere un brazo robótico con un alcance de entre 1.5 y 2 metros y que pueda soportar alrededor de 7 kilos de carga útil. Después de evaluar varias opciones, se ha seleccionado el brazo robótico FANUC ARC Mate 100iD/8L debido a sus características y capacidades.
@@ -59,36 +64,28 @@ La pinza por vacío eléctrica VGC10 tiene posibilidades de personalización ili
 ## Flexibilidad y programabilidad
 La pinza por vacío eléctrica VGC10 es compatible con el brazo robótico de FANUC, lo que asegura una fácil integración y compatibilidad. También cuenta con una interfaz de programación intuitiva que facilita la programación y personalización de la tarea. Además, la conectividad de red Ethernet integrada facilita la integración del gripper en sistemas de control de producción más grandes.
 
+![image](https://github.com/APM-Kullu/Project/assets/52173621/453066fd-ad10-478f-8d2b-e85fea9e3be1)
+
 [Más información](https://www.roscomponents.com/es/pinzas/292--vgc10-.html)
 
 # Simulación Pick and Place en Roboguide
 
 [![Alt text](https://img.youtube.com/vi/rG_TBuvx13Y/0.jpg)](https://www.youtube.com/watch?v=rG_TBuvx13Y)
 
-# Planta automatizada
+Los templates donde se organizan las piezas son los siguientes
 
-## Planta completa
-<img width="676" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/720cabd6-a22f-4ab4-8a29-0c245d9ec3bf">
-
-## CNC
-<img width="374" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/6dfb3aee-a7e8-4f87-9640-14275d7d5b1a">
-
-## Conveyor
-<img width="408" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/e5324434-63f2-40eb-9265-c4045b87f2c3">
-
-## Taladrado
-<img width="450" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/8a926470-1f7e-480d-bf90-04f5a03dad38">
-
-## Template 1
+### Template 1
 <img width="417" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/14da1f6c-8aea-47fa-a3ea-add79389d8fc">
 
-## Template 2
+### Template 2
 <img width="426" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/419b93f0-6041-4982-8a0b-19d3f0f6f42b">
 
-## Template 3
+### Template 3
 <img width="423" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/7309c81b-559d-432f-935d-20be8a9362ab">
 
-## Template 4
+### Template 4
 <img width="421" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/afc22413-f79d-4ec3-a8e1-618398b78261">
 
+
+El flujo de la celda es el siguiente
 

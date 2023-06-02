@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Controladores Industriales
+title: Industria 4.0
 ---
 
 ![image](https://github.com/APM-Kullu/Project/assets/52173621/8f3521af-854a-45ab-8b39-e819512413d9)

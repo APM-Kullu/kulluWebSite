@@ -90,9 +90,7 @@ Una vez que se han lacado todas las piezas, se procede al almacenamiento.
 Primero se almacenan en un almacén de secado, donde las piezas deben permanecer un tiempo estipulado, para asegurar que el lacado se fijó correctamente, luego se almacenan en un almacén de despacho, donde se surten a los transportistas para la entrega al cliente final.
 El almacenamiento adecuado ayuda a proteger las piezas de la humedad y del polvo, lo que puede dañar la superficie.
 
-
 [Más información sobre la planta](https://github.com/APM-Kullu/Project/tree/main/PlantaManual)
-
 
 [Articulo completo](https://github.com/APM-Kullu/Project/blob/main/Especificaciones%20de%20Proyecto.pdf)
 
