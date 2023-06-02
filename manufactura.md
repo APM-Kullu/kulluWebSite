@@ -91,11 +91,9 @@ Primero se almacenan en un almacén de secado, donde las piezas deben permanecer
 El almacenamiento adecuado ayuda a proteger las piezas de la humedad y del polvo, lo que puede dañar la superficie.
 
 
-# Diagrama del proceso
-
-![Diagrama de planta no automatizada](./../images/diag_Planta1.png)
-
 [Más información sobre la planta](https://github.com/APM-Kullu/Project/tree/main/PlantaManual)
+
+
 [Articulo completo](https://github.com/APM-Kullu/Project/blob/main/Especificaciones%20de%20Proyecto.pdf)
 
 <button style="background-color: #4CAF50; /* color de fondo */
