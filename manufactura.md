@@ -84,5 +84,5 @@ El almacenamiento adecuado ayuda a proteger las piezas de la humedad y del polvo
                font-size: 16px; /* tamaño de la fuente */
                margin: 10px; /* margen externo */
                cursor: pointer; /* cursor de puntero */"
-        onclick="window.location.href = window.location.href + '/automatizacion'">
+        onclick="window.location.href = window.location.href + 'automatizacion'">
 Ver más</button>
