@@ -23,6 +23,7 @@ navbar-links:
   Nuestra Solución: 
     - SOLUCION: "solution"
     - PROCESOS DE MANUFACTURA: "manufactura"
+    - PLANTA AUTOMATIZADA: "planta"
     - CONTROLADORES INDUSTRIALES: "controladores"
     - INDUSTRIA 4.0: "industria"
     - CELDA ROBOTIZADA: "robotica"
