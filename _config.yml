@@ -23,9 +23,15 @@ navbar-links:
   Nuestra Solución: 
     - SOLUCION: "solution"
     - PROCESOS DE MANUFACTURA: "manufactura"
-    - AUTOMATIZACIÓN Y MAQUINARIA: "automatizacion"
+    - CONTROLADORES INDUSTRIALES: "controladores"
+    - INDUSTRIA 4.0: "industria"
+    - CELDA ROBOTIZADA: "robotica"
+    - ACTUADORES DE AUTOMATIZACIÓN: "actuadores"
+    - DIGITAL FACTORY: "digital"
+    - SCADA: "scada"
     - CAPACIDAD DE PRODUCCIÓN: "production"
     - PARÁMETROS DE RENDIMIENTO Y KPIS: "kpis"
+    - EVALUACIÓN ECÓNOMICA: "economica"
   Nuestro Equipo: "team"
   Proceso de aprendizaje:
     - GESTIÓN DE PROYECTO: "gestion"
