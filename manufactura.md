@@ -104,5 +104,6 @@ El almacenamiento adecuado ayuda a proteger las piezas de la humedad y del polvo
                font-size: 16px; /* tamaño de la fuente */
                margin: 10px; /* margen externo */
                cursor: pointer; /* cursor de puntero */"
-        onclick="window.location.href = window.location.href + 'controladores'">
-Ver Los controladores industriales </button>
+        onclick="window.location.href = window.location.origin + '/kulluWebSite/planta'">
+
+Ver La planta automatizada </button>

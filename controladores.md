@@ -16,5 +16,6 @@ Para el control de nuestra solución en automatización se planificó que cada e
                font-size: 16px; /* tamaño de la fuente */
                margin: 10px; /* margen externo */
                cursor: pointer; /* cursor de puntero */"
-        onclick="window.location.href = window.location.href + 'industria'">
+        onclick="window.location.href = window.location.origin + '/kulluWebSite/industria'">
+
 Ver Industria 4.0 </button>

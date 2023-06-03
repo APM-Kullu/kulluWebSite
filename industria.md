@@ -16,5 +16,6 @@ title: Industria 4.0
                font-size: 16px; /* tamaño de la fuente */
                margin: 10px; /* margen externo */
                cursor: pointer; /* cursor de puntero */"
-        onclick="window.location.href = window.location.href + 'industria'">
-Ver Industria 4.0 </button>
+        onclick="window.location.href = window.location.origin + '/kulluWebSite/robotica'">
+
+Ver Celda robotizada </button>
