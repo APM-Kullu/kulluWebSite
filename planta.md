@@ -48,5 +48,4 @@ La estación de taladrado recibe los templates llenos de piezas de la cinta tran
                margin: 10px; /* margen externo */
                cursor: pointer; /* cursor de puntero */"
         onclick="window.location.href = window.location.origin + '/kulluWebSite/controladores'">
-
 Ver Los controladores industriales </button>

@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Controladores Industriales
+title: Actuadores de automatización
 ---
+
+
 
 
 <button style="background-color: #4CAF50; /* color de fondo */
