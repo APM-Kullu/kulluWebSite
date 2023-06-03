@@ -89,6 +89,9 @@ Los templates donde se organizan las piezas son los siguientes
 
 El flujo de la celda es el siguiente
 
+<img width="377" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/538ce18f-271a-49c2-83ae-2b68c19d94ec">
+
+
 <button style="background-color: #4CAF50; /* color de fondo */
                color: white; /* color del texto */
                border: none; /* borde del botón */
