@@ -106,5 +106,5 @@ Se plantea el mismo tipo de acabado y material que los 2 productos anteriores.
                font-size: 16px; /* tamaño de la fuente */
                margin: 10px; /* margen externo */
                cursor: pointer; /* cursor de puntero */"
-        onclick="window.location.href = window.location.origin + '/manufactura'">
+        onclick="window.location.href = window.location.origin + '/kulluWebSite/manufactura'">
 Ver Procesos de manufactura </button>
