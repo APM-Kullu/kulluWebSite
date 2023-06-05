@@ -8,11 +8,11 @@ Para nuestra solución, se creó  un servidor de Ignition en la nube de a travé
 
 Video de la implementación
 
-[![Alt text](https://img.youtube.com/vi/rG_0yiJnTqWK_8.jpg)](https://www.youtube.com/watch?v=0yiJnTqWK_8)
+[![Alt text](https://img.youtube.com/vi/-7O8viFm89k.jpg)](https://www.youtube.com/watch?v=-7O8viFm89k)
 
 Video de la Implementación de Ignition Gateway en AWS
 
-[![Alt text](https://img.youtube.com/vi/nD5rSWWMgQA.jpg)](https://www.youtube.com/watch?v=nD5rSWWMgQA)
+[![Alt text](https://img.youtube.com/vi/MLt3Q0V0xUE.jpg)](https://www.youtube.com/watch?v=MLt3Q0V0xUE)
 
 Los tableros de Control son los siguientes
 
