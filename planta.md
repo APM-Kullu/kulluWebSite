@@ -65,7 +65,7 @@ En este [documento](./PiezasYCortes.md) se describen algunos detalles que se deb
 
 En la siguiente imagen se muestra el diseño CAD de toda la planta automatizada, el cual es utilizado para la simulación mediante el software NX Mechatronics  Concept Designer. Se aclara que el robot que se muestra en el ensamble es de carácter representativo.
 
-![](../images/assembly.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/2221483e-d8c5-43f3-93ae-f869d127a10c)
 
 La planta ocupa una area de aproximadamente 10.5m x 9.5m, ocupados principalmente por 3 cintas transportadoras, una fresadora CNC, y un robot antropomórfico.
 
@@ -73,17 +73,17 @@ Los componentes comerciales que se utilizaron para el diseño de la planta autom
 
 La maquina CNC seleccionada es la que se muestra en la siguiente imagen, disponible [aquí](https://cntmotion.com/solutions/application/feed-through-parts-machining/)
 
-![](../images/CNCMachine.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/592b30e0-61f6-4aad-bafd-9c826bfcc713)
 
 - Se utilizan 3 cintas transportadoras como la que se muestra a continuación, disponible en este [enlace](https://www.grainger.com/product/BESTFLEX-Powered-Roller-Conveyor-24-5YDF4?opr=PDPRRDSP&analytics=dsrrItems_5YDF3), cada una de una longitud de 24 pies (aproximadamente 7.3m) y un ancho de 24 pulgadas (61cm).
 
-![](../images/conveyorMachine.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/28bbbb7a-848e-4eb7-aba8-03cc143ffbde)
 
 - Para cada cinta transportadora, se utiliza un sensor para detectar la llegada de una pieza, la referencia seleccionada se encuentra disponible [aquí](https://www.mcmaster.com/7674K812/).
 
 - PLC [1769-L30ER ALLEN-BRADLEY](https://co.wiautomation.com/allen-bradley/plc-sistemas/compactlogix/1769L30ER?gclid=Cj0KCQjw7PCjBhDwARIsANo7CgmpGsCVsYg1hpT3X5nnFjPaax9bad99TBPo--CAxjIbJZAdXeUibbYaAoEbEALw_wcB) con sus correspondientes modulos de entradas y salidas digitales, [1756-IV32 ALLEN-BRADLEY](https://co.wiautomation.com/allen-bradley/modulos/controllogix/1756IV32). y [1756-OV32E ALLEN-BRADLEY](https://co.wiautomation.com/allen-bradley/modulos/controllogix/1756OV32E).
 
-![](../images/plc.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/6759657c-c57c-4ff9-94c1-a64dac39382d)
 
 
 
@@ -91,8 +91,8 @@ La maquina CNC seleccionada es la que se muestra en la siguiente imagen, disponi
 
 Las plantillas se proponen como un ensamble de platinas de aluminio de 50mm de espesor, con perforaciones de 8mm de diámetro, para permitir el paso de tornillos M8 de 100 mm de largo, de tal forma que el armazón completo se puede ensamblar usando 96 de estos tornillos. En las dos imágenes que se muestran a continuación se observan las dos partes principales del armazón, donde la parte roja sirve como sostén para toda la plantilla, y ademas cuenta con agujeros diseñados específicamente para el autocentrado de la plantilla con la mordaza neumática, y la parte verde es la que sostiene la geometría de la plantilla donde se alojan las piezas. Todas las platinas fueron diseñadas teniendo en cuenta que se puedan manufacturar en una fresadora vertical convencional de ejes y asi facilitar su producción y remplazo en el mercado local.
 
-![](../images/template_p1.png)
-![](../images/template_p2.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/ecc41d0c-b92d-4083-b631-0993c545a2a6)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/03775231-a804-4f69-88b5-c5215b30d90f)
 
 La pieza ensamblada tiene un tamaño total de 850mm x 24 pulgadas (609.6mm) acorde con el ancho de la cinta transportadora.
 
@@ -100,14 +100,14 @@ Por otro lado se diseñaron 4 geometrías en madera de MDF de 30mm, las cuales p
 
 A continuación se presentan las 4 geometrías propuestas, junto con las piezas de corte, con el fin de representar la distribución de las piezas durante el proceso de producción.
 
-![Template 1](../images/template1.png)
-![Template 2](../images/tamplate2.png)
-![Template 3](../images/tamplete3.png)
-![Template 4](../images/template4.png)
+<img width="417" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/14da1f6c-8aea-47fa-a3ea-add79389d8fc">
+<img width="426" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/419b93f0-6041-4982-8a0b-19d3f0f6f42b">
+<img width="423" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/7309c81b-559d-432f-935d-20be8a9362ab">
+<img width="421" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/afc22413-f79d-4ec3-a8e1-618398b78261">
 
 La plantilla 4 aloja las mismas piezas que la plantilla 3 pero en una orientación diferente, de tal forma que ambas plantillas permiten el taladrado de agujeros en 2 planos diferentes para cada pieza.
 
-El modelo CAD de estas plantillas esta disponible en este enlace ![](./CAD/Plantillas_Taladrado.f3d), siendo desarrollado mediante el software Fusion360.
+El modelo CAD de estas plantillas esta disponible en este enlace [](https://github.com/APM-Kullu/Project/blob/main/PlantaAutomatizada/CAD/Plantillas_Taladrado.f3d), siendo desarrollado mediante el software Fusion360.
 
 El ensamble del armazón (pieza roja y verde) fabricado en aluminio 6061, tiene una masa de alrededor de 70kg, y junto a la geometría de la plantilla y las piezas alojadas, se estima un peso máximo de alrededor de 90Kg.
 
