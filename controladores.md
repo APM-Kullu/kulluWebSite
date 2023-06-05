@@ -8,7 +8,7 @@ title: Controladores Industriales
 
 De acuerdo con las especificaciones del proyecto, el código en ladder fue desarrollado, planteando un diagrama de GRAFCET, el cual se puede observar a continuación.
 
-![](../images/grafcet1.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/6b941bfd-fa0b-4d38-b96a-392dc1f0c7e8)
 
 Las etapas S3, S4 y S5 se ejecutan en paralelo, y cada una se corresponde con un subsistema de la planta automatizada. El estado S3_CNC0 corresponde a la cinta transportadora a la salida de la fresadora CNC, el estado S4_PIN0 (Part interchange) corresponde al conjunto mordaza + cinta transportadora que permite ingresar o retirar piezas a la celda de taladrado, y el estado S5_DRI0 (DRILL) corresponde al conjunto de cinta transportadora + mordaza neumática + mecanismo de taladrado, que se encarga de taladrar las piezas. Cada uno de estos estados se corresponde con un GRAFCET que describe la operación normal de cada subsistema, sin embargo se separan en GRAFCETS separados para facilitar la programación en ladder en subrutinas separadas.
 
@@ -27,7 +27,7 @@ Las etapas S3, S4 y S5 se ejecutan en paralelo, y cada una se corresponde con un
 
 ## GRAFCET S3_CNC0
 
-![](../images/grafcet2.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/8726c055-0997-4995-bc92-627bef35c25c)
 
 - S3_S0_RUN: Estado permanente de funcionamiento de la cinta transportadora
 - S3_T0: Detección de pieza mediante sensor
@@ -38,7 +38,7 @@ Las etapas S3, S4 y S5 se ejecutan en paralelo, y cada una se corresponde con un
 
 ## GRAFCET S4_PIN0
 
-![](../images/grafcet3.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/929b5e77-93dc-461b-ab2b-cfd9ea34fe19)
 
 - S4_S0_RUN: Estado permanente de funcionamiento de la cinta transportadora.
 - S4_T0: Detección de pieza mediante sensor.
@@ -55,7 +55,7 @@ Las etapas S3, S4 y S5 se ejecutan en paralelo, y cada una se corresponde con un
 
 En este bloque, se tiene en cuenta que existe una disposición inicial de las plantillas sobre la planta, de tal forma que es necesario dejar pasar 2 plantillas antes de que el proceso de taladrado pueda comenzar, dado que estas primeras piezas no han pasado por el intercambiador de piezas, y por lo tanto no cuentan con pieza que requieran taladrado.
 
-![](../images/grafcet4.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/3e903e28-f0d1-48d5-b132-31b24a863e3d)
 
 - S5_S0_BYS: La cinta transportadora del subsistema de taladrado funciona de forma simultanea a la cinta transportadora del subsistema de intercambiador de piezas, de tal forma que si la segunda se detiene, la primera también lo hará e igualmente arrancara si la segunda lo hace.
 - S5_T0: Detección de pieza mediante sensor.
