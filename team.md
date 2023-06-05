@@ -31,3 +31,5 @@ Nuestro equipo está conformado por estudiantes de último semestre de Ingenier�
 | Eduardo Barrera G.  | Ricardo Ramirez H.   | Luis Miguel Mendez |
 | Ingeniero Electrónico MSc| Ingeniero Electrónico PhD | Ingeniero Mecánico PhD|
 | ebarrerag@unal.edu.co  | reramirezh@unal.edu.co  | lmmendezm@unal.edu.co  |
+
+# 

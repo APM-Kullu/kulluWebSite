@@ -8,22 +8,22 @@ Para la propuesta de proyecto, se propone la automatización de los procesos que
 
 En la siguiente imagen se muestra un esquema general de la propuesta, en el lado izquierdo se encuentra la entrada de laminas de MDf precortadas mediante las maquinas corte laser que ya cuenta la manufactura no automatizada. Las laminas ingresan a una maquina CNC que se encarga de terminar el corte y acabar los bordes, de tal forma que la fresa tiene un menor desgaste y se aprovecha la maquinaria de corte laser presente en el proceso manufacturero previo a la automatización.
 
-![](../images/esquemaPlantaAutomatizada.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/fc2a4967-f346-4023-a35b-604b166bed51)
 
 Las laminas salen de la fresadora CNC por medio de una cinta transportadora, donde se evacuan los residuos del corte, y un robot antropomórfico recoge las piezas resultantes, y las ingresa a un celda de taladrado. De igual forma este mismo robot se encarga de recoger las piezas terminadas del taladrado y las ingresa en un contenedor de salida, que un operario puede retirar cada vez que se requieran mas piezas para el siguiente proceso.
 
 
 En la siguiente imagen se presenta un esquema de vista superior de la celda de taladrado. esta consta de dos cintas transportadoras que forman un ciclo, de tal forma que el robot antropomórfico ingresa o retira las piezas en el modulo de la parte superior, y el taladrado se ejecuta en el modulo de la parte inferior. Las piezas transitan a lo largo de la cinta transportadora, a traves de un plantilla que asegura las piezas, de tal forma que cuando lleguen a cualquiera de los dos módulos, el posicionamiento de las piezas sea el mismo, y se pueda realizar el pick and place del robot o el taladrado de forma precisa.
 
-![](../images/drillPlant.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/37b42a9d-8136-468d-8335-696c3f1047f2)
 
 En el diagrama anterior, también se especifican dos mecanismos de sujeción de plantillas, y sensores de detección de pieza, la idea consiste en detectar la presencia de una platilla cada vez que pase por el sensor, y en ese momento activar un mecanismo de fijación de la plantilla, que tenga una capacidad de autocentrado, de tal forma que la pieza se sujete en el mismo lugar en cada iteración del proceso. En la siguiente imagen se muestra un diagrama representando la vista frontal de dicho mecanismo.
 
-![](../images/diagramaMordaza.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/5fce7348-68f8-4e12-ab3e-61cdf9779059)
 
 En la siguiente imagen se muestra una vista superior de la celda del robot, la idea de este sistema radica en tener la capacidad de recoger las piezas a la salida de la fresadora CNC e ingresarlas a la celda de taladrado, o retirarlas una vez terminado el proceso, ademas de poder reorientar las piezas en caso de que requieran agujeros en diferentes planos, e ingresarlas en otra plantilla para taladrar en el otro plano, por este motivo se plantea la necesidad de utilizar un robot antropomórfico que permita lograr cualquier orientación de la pieza, acompañado de un gripper de tipo ventosa neumática que permita sujetar diferentes geometrías de pieza sin tener que cambiar la herramienta.
 
-![](../images/celdaRobot.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/c0c23994-a643-4189-a161-47cde7a646e2)
 
 
 ## CNC
