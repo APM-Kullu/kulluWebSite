@@ -28,7 +28,33 @@ En la siguiente imagen se muestra una vista superior de la celda del robot, la i
 
 ## CNC
 
-La estación de corte CNC recibe una lámina de MDF y entrega la lámina con los cortes de los patrones requeridos (2), los cuales se entregan de forma intercalada.
+Teniendo en cuenta que las laminas de MDF que ingresan a la fresadora CNC deben tener un ancho exacto de 24 pulgadas (609.60mm) y ademas deben contener las piezas cortadas mediante laser sin que que se desprendan completamente de la lamina, se debe modificar el plano de corte laser. A continuación se muestra una imagen donde se muestran las piezas resultantes de dicho corte, de tal forma que todas las piezas se encuentran separadas en dos tableros de 609.80mm x 1050mm.
+
+
+![image](https://github.com/APM-Kullu/Project/assets/52173621/725c36a6-8580-40b4-8f6b-ce2d9b141833)
+
+Como se muestra en la imagen, las piezas se encuentran unidas al tablero mediante pequeñas conexiones, de tal forma que en la mayoría del proceso de fresado CNC, solo se realice una operación de acabado de bordes, y no un desbaste completo de la pieza.
+
+
+Mediante Fusion 360 se simulan las operaciones de corte, con una velocidad de corte de 1500mm/min, y una potencia de 200w (Ambos valores sacados de esta [referencia](https://artizono.com/co2-laser-cutting-thickness-speed-chart/)).
+
+
+![image](https://github.com/APM-Kullu/Project/assets/52173621/90dd41bf-8838-44ff-9771-3c0bfd7101ed)
+
+Se obtienen un tiempo de corte de 11 minutos, 6 segundos para la primera lamina, y 11 minutos, 50 segundos para la segunda lamina.
+
+
+
+# Corte CNC
+
+El corte ejecutado por la fresadora CNC se trata de un contoneado de acabado de bordes, ademas del desbaste de los conectores de la pieza con el taladro, repasando el borde de cada pieza en 2mm-3mm en función de su tamaño. La referencia de fresa seleccionada es la [Router Bit for Wood, Particleboard, Plywood Uncoated High-Speed Steel, 3/16" Cutting Diameter, 5/8" Length of Cut](https://www.mcmaster.com/2891A11) de la web de McMASTER-CARR.
+
+Se calcula una velocidad de corte $V_c = 270 \frac{m}{min}$,  con un avance de $V_f = 5760 \frac{mm}{min}$ a 18000 RPM, para metros que se utilizan para simular el corte y obtener los tiempos de corte.
+
+![image](https://github.com/APM-Kullu/Project/assets/52173621/6b0b93ff-db0f-4d24-97b7-97af746b1a5b)
+
+- Tiempo de corte tablero 1: 1 minuto 42 segundos
+- Tiempo de corte tablero 2: 1 minuto 53 segundos
 
 <img width="374" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/6dfb3aee-a7e8-4f87-9640-14275d7d5b1a">
 
@@ -51,9 +77,42 @@ La estación de la banda transportadora en ciclo, entrega un template a la estac
 
 ## Taladrado
 
-La estación de taladrado recibe los templates llenos de piezas de la cinta transportadora y devuelve el mismo template con las piezas taladradas
+# Mecanismo de Taladrado
 
 <img width="450" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/8a926470-1f7e-480d-bf90-04f5a03dad38">
+
+![image](https://github.com/APM-Kullu/Project/assets/52173621/403dc967-5dfb-4e68-8105-d3b7c6deb969)
+
+
+Se trata de un servomecanismo de 3 ejes tipo gantry, que permite taladrar las piezas mediante una broca. Su armazón esta construido mediante extrusiones de aluminio 6060, ángulos de sujeción y tornillos M12 x 60mm.
+
+Esta pensado para ser utilizado junto a un par de mecanismos de mordazas neumáticas las cuales aseguran la posición de las piezas que requieren se taladradas, en un conjunto como el que se presenta en la siguiente imagen.
+
+![image](https://github.com/APM-Kullu/Project/assets/52173621/5cf260e2-2c90-4239-82df-c0240e680afa)
+
+El Eje Y en color azul, es doble, tiene un rango de de 600mm, y es sobre el cual reposa todo el gantry. El eje X se muestra en color amarillo, tiene un rango de 500mm pero se reduce a 450mm debido a los elementos del ensamble. El eje z en color naranja tiene un rango de 400mm y carga consigo un motor con husillo que permite el movimiento de la broca. Cada eje se trata de un mecanismo de tornillo de avance que se adquiere ya ensamblado, y que se controla mediante motores de geometría NEMA 23. Los ejes X y Y se encuentran conectados mediante piezas de aluminio disponibles comercialmente, mientras que la union entre el eje X y el eje Z, asi como la union entre el eje Z y el motor de taladrado, son piezas personalizadas que pueden ser manufacturadas en un aluminio convencional 6061, mediante una fresadora vertical.
+
+
+## Componentes
+
+- Eje y: 2x [Motor-Mount Positioning Slide for NEMA 23 Motor Frame Size, 600 mm Stroke Length](https://www.mcmaster.com/6734K818)
+- Eje X: [Motor-Mount Positioning Slide for NEMA 23 Motor Frame Size, 500 mm Stroke Length](https://www.mcmaster.com/6734K817)
+- Eje Z: [Motor-Mount Positioning Slide for NEMA 23 Motor Frame Size, 400 mm Stroke Length](https://www.mcmaster.com/6734K816)
+- Conexión entre Eje X y eje Y: 2x [Side Orientation Two-Axis Mounting Plate for Motor-Mount Positioning Slide](https://www.mcmaster.com/6734K821)
+- Motor de taladrado: [1.5KW Air Cooled Spindle Square CNC Spindle Motor ER11/ER16](https://www.zhonghuajiangspindle.com/1.5kw-cnc-square-air-cooled-spindle-motor.html)
+- Variador de frecuencia para el motor de taladrado: [CIMR-PU2A0018FAA YASKAWA](https://co.wiautomation.com/yaskawa/variadores-motores-proteccion-de-circuitos/CIMRPU2A0018FAA)
+- 16x Tornillos M4 x 0.7mm para el fijado entre ejes
+- 8x Tornillos M8 x 30mm para el fijado del motor de taladrado.
+- 36x [T-Slotted Framing Silver Corner Bracket for 60mm High Rail, 1-1/8" Long](https://www.mcmaster.com/5537T941)
+- 144x Tornillos M6 x 20mm para el fijado del armazón de aluminio mediante esquineros
+- 10.5 metros de extrusion de aluminio 6060: 2x [T-Slotted Framing Quad Rail, Silver, 60 mm High x 60 mm Wide, Hollow](https://www.mcmaster.com/5537T99-5537T806/)
+
+
+Para mas detalle sobre la selección de motores y sus respectivos drivers consulte este [documento](./Drivers%20y%20Motores%20(Motion%20Control).md)
+
+El modelo CAD del mecanismo esta disponible en el [archivo](./CAD/MecanismoTaladrado%20v33.f3z)
+
+
 
 
 
@@ -110,6 +169,10 @@ La plantilla 4 aloja las mismas piezas que la plantilla 3 pero en una orientaci�
 El modelo CAD de estas plantillas esta disponible en este enlace [](https://github.com/APM-Kullu/Project/blob/main/PlantaAutomatizada/CAD/Plantillas_Taladrado.f3d), siendo desarrollado mediante el software Fusion360.
 
 El ensamble del armazón (pieza roja y verde) fabricado en aluminio 6061, tiene una masa de alrededor de 70kg, y junto a la geometría de la plantilla y las piezas alojadas, se estima un peso máximo de alrededor de 90Kg.
+
+
+
+
 
 [Documentación Completa de toda la planta](https://github.com/APM-Kullu/Project/tree/main/PlantaAutomatizada)
 
