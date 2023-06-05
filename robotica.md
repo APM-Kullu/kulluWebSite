@@ -143,5 +143,5 @@ la luz de seguridad está ubicada fuera de la celda robótica. La luz de segurid
                font-size: 16px; /* tamaño de la fuente */
                margin: 10px; /* margen externo */
                cursor: pointer; /* cursor de puntero */"
-        onclick="window.location.href = window.location.origin + '/kulluWebSite/robotica'">
-Ver Celda robotizada </button>
+        onclick="window.location.href = window.location.origin + '/kulluWebSite/actuadores'">
+Ver Actuadores de automatización </button>

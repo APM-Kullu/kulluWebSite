@@ -22,3 +22,17 @@ Para cada producto el proceso de manufactura será secuencial y abarcará cada u
 ### Takt time:
 
 ### Tiempo de ciclo ($T_c$):
+
+
+<button style="background-color: #4CAF50; /* color de fondo */
+               color: white; /* color del texto */
+               border: none; /* borde del botón */
+               padding: 10px 20px; /* espacio alrededor del texto */
+               text-align: center; /* centrar el texto */
+               text-decoration: none; /* sin subrayado */
+               display: inline-block; /* mostrar en línea */
+               font-size: 16px; /* tamaño de la fuente */
+               margin: 10px; /* margen externo */
+               cursor: pointer; /* cursor de puntero */"
+        onclick="window.location.href = window.location.origin + '/kulluWebSite/economica'">
+Ver Evaluación económica </button>

@@ -11,6 +11,10 @@ Video de la implementación
 
 [![Alt text](https://img.youtube.com/vi/rG_0yiJnTqWK_8.jpg)](https://www.youtube.com/watch?v=0yiJnTqWK_8)
 
+Video de la Implementación de Ignition Gateway en AWS
+
+[![Alt text](https://img.youtube.com/vi/nD5rSWWMgQA.jpg)](https://www.youtube.com/watch?v=nD5rSWWMgQA)
+
 Los tableros de Control son los siguientes
 
 <img width="513" alt="image" src="https://github.com/APM-Kullu/Project/assets/52173621/6b0092cb-2f16-4e01-b9c4-732336aeac69">
