@@ -331,7 +331,7 @@ El precio de la válvula es de **USD 22.75** y se requieren 8.
 
 # Mordaza Neumática
 
-![](../images/mordaza1.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/2b7f557d-f9df-42f6-a51a-421526505049)
 
 La mordaza neumática se trata de un mecanismo que permite el movimiento en un eje controlado por un cilindro neumático de doble efecto y soportado por dos guías lineales. Se encarga de la fijación de las plantillas en las estaciones de taladrado e intercambio de piezas, con el fin de garantizar un posicionamiento adecuado tanto en el taladrado, como en el pick an place de las piezas por parte del robot, eliminando la necesidad de un sistema de vision de maquina para el posicionamiento de las piezas.
 
@@ -341,15 +341,15 @@ El cilindro neumático junto con sus sensores de final de carrera, y las guías 
 
 - [Enclosed-Body NFPA Tie Rod Air Cylinder - Cushioned, Double Acting, 32mm Bore, 275mm Stroke Length](https://www.mcmaster.com/60405K127/)
 
-![](../images/cilindro.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/46e76f7d-fb05-40b5-a19c-f167e45f1b21)
 
 - 2 x [Telescoping Slide - C Rail Profile, 43 mm Wide x 610 mm Long Rail](https://www.mcmaster.com/8379K12/)
 
-![](../images/guia.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/ce8fb75c-9bc0-483b-a745-8ceead23dfe4)
 
 - 2x [10-30V DC NPN Sensor for 2-1/2" Bores Enclosed-Body NFPA Tie Rod Air Cylinder](https://www.mcmaster.com/6402T924/)
 
-![](../images/sensorCilindro.png)
+![image](https://github.com/APM-Kullu/Project/assets/52173621/0e006046-8146-4fef-915e-be7e2b9b16db)
 
 El cilindro neumático fue seleccionado en base al alcance del movimiento requerido, a partir de allí solo se requirió verificar que la presión maxima que puede entregar el cilindro, fuese mayor a la presión maxima requerida, debida a la fuerza del peso máximo de la carga desplazada, que es de alrededor de 100N, (el peso de los elementos fijos al vástago del cilindro).
 
@@ -368,7 +368,7 @@ Los tornillos requeridos para la construcción de una mordaza, son los siguiente
 - 1x  M12 x 40mm
 - 17x M5  x 40mm
 
-El Diseño CAD del mecanismo se encuentra disponible en este [enlace](./CAD/MordazaNeumatica%20v28.f3d).
+El Diseño CAD del mecanismo se encuentra disponible en este [enlace](https://github.com/APM-Kullu/Project/blob/main/PlantaAutomatizada/CAD/MordazaNeumatica%20v28.f3d).
 
 
 
