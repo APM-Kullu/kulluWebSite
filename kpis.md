@@ -19,9 +19,8 @@ Para cada producto el proceso de manufactura será secuencial y abarcará cada u
 
 ![image](https://user-images.githubusercontent.com/52173621/227734057-33b0f70c-aad0-4f3a-9607-26930d2fe5dc.png)
 
-### Takt time:
-
-### Tiempo de ciclo ($T_c$):
+### Tiempo de ciclo (Tc):
+Se asignó un tiempo de ciclo para cada uno de los procesos en la planta no automatizada, teniendo en cuenta el proceso en cuestión y el tipo de equipos involucrados. 
 
 
 <button style="background-color: #4CAF50; /* color de fondo */
